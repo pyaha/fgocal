@@ -1,1 +1,0 @@
-# fgocal.github.io
