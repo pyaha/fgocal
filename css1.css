@@ -1,0 +1,31 @@
+#headertitle {
+font-size: 40px;
+}
+table {
+  margin: auto;
+  border-collapse:collapse; 
+  border-left:skyblue 2px solid; 
+  border-top:skyblue 2px solid; 
+  text-align:center;
+}
+td {
+  border: black 1px solid; 
+  margin:0;
+}
+label {
+  border:rgb(165, 243, 39) 1px solid;
+  padding: 0px 10px 0px 10px;
+  cursor:pointer;
+}
+p {
+  text-align:center;
+}
+[type="number"] {
+  width: 75px;
+}
+[type="radio"] {
+  display: none;
+}
+[type="radio"]:checked + label{
+  border:blue 1px solid;
+}
