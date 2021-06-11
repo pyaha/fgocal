@@ -29,3 +29,6 @@ p {
 [type="radio"]:checked + label{
   border:blue 1px solid;
 }
+#ad-top1 {
+  width: 320px;
+}
