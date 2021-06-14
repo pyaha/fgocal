@@ -284,7 +284,17 @@ function O00(){ // 보구특공
   let aa = Math.round(100 + Number(document.getElementById("66-2").value)) / 100;
   return aa;
 }
+function onClick() {
+  document.querySelector('.modal_wrap').style.display ='block';
+  document.querySelector('.black_bg').style.display ='block';
+}   
+function offClick() {
+  document.querySelector('.modal_wrap').style.display ='none';
+  document.querySelector('.black_bg').style.display ='none';
+}
 
+document.getElementById('modal_btn').addEventListener('click', onClick);
+document.querySelector('.modal_close').addEventListener('click', offClick);
 
 var arr_nonp = [0,0,0,0]; //1~4번째 평타 array
 var arr_np = [0,0,0]; //1~3번째 보구 array
